@@ -1,0 +1,7 @@
+D:\VS\Scolarship\Scolarship\bin\Debug\Scolarship.exe.config
+D:\VS\Scolarship\Scolarship\bin\Debug\Scolarship.exe
+D:\VS\Scolarship\Scolarship\bin\Debug\Scolarship.pdb
+D:\VS\Scolarship\Scolarship\obj\Debug\Scolarship.csproj.AssemblyReference.cache
+D:\VS\Scolarship\Scolarship\obj\Debug\Scolarship.csproj.CoreCompileInputs.cache
+D:\VS\Scolarship\Scolarship\obj\Debug\Scolarship.exe
+D:\VS\Scolarship\Scolarship\obj\Debug\Scolarship.pdb
