@@ -11,7 +11,10 @@ namespace Scolarship.View
         public double Income { get; set; }
         public double AverageGrade { get; set; }
         public double MinWage { get; set; }
+        public decimal SocialScholarship { get; set; }
+        public decimal ExcellenceScholarship { get; set; }
 
+        // Въвеждане на входни данни
         public void Input()
         {
             Console.Write("Въведи доход: ");
@@ -24,9 +27,21 @@ namespace Scolarship.View
             MinWage = double.Parse(Console.ReadLine());
         }
 
-        public void DisplayResult(string result)
+        // Показване на резултатите
+        public void Output()
         {
-            Console.WriteLine(result);
+            if (SocialScholarship == 0 && ExcellenceScholarship == 0)
+            {
+                Console.WriteLine("Не можете да получите стипендия!");
+            }
+            else if (SocialScholarship > ExcellenceScholarship)
+            {
+                Console.WriteLine($"Получавате социална стипендия в размер на {SocialScholarship} лв.");
+            }
+            else
+            {
+                Console.WriteLine($"Получавате стипендия за отличен успех в размер на {ExcellenceScholarship} лв.");
+            }
         }
     }
 }

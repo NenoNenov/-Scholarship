@@ -10,31 +10,25 @@ namespace Scolarship.Cotrollers
 {
     public class Scolarship
     {
-        Display disp = new Display();
+        Display myDisp = new Display();
         ScolarshipView myScol = new ScolarshipView();
+
         public Scolarship()
         {
-            disp.Input();
+            // Вход на данни чрез дисплея
+            myDisp.Input();
 
-            myScol.Income = disp.Income;
-            myScol.AverageGrade = disp.AverageGrade;
-            myScol.MinWage = disp.MinWage;
+            // Попълване на модела със стойности от дисплея
+            myScol.Income = myDisp.Income;
+            myScol.AverageGrade = myDisp.AverageGrade;
+            myScol.MinWage = myDisp.MinWage;
 
-            decimal socialScholarship = myScol.GetSocialScolarship();
-            decimal excellentScholarship = myScol.GetExcellentScolarship();
+            // Изчисления
+            myDisp.SocialScholarship = myScol.CalculateSocialScholarship();
+            myDisp.ExcellenceScholarship = myScol.CalculateExcellenceScholarship();
 
-            if (socialScholarship == 0 && excellentScholarship == 0)
-            {
-                disp.DisplayResult("You cannot get a scholarship!");
-            }
-            else if (socialScholarship > excellentScholarship)
-            {
-                disp.DisplayResult($"You get a Social scholarship {socialScholarship} BGN");
-            }
-            else
-            {
-                disp.DisplayResult($"You get a scholarship for excellent results {excellentScholarship} BGN");
-            }
+            // Изход (показване на резултат)
+            myDisp.Output();
         }
     }
 }
