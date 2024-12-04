@@ -1,0 +1,16 @@
+D:\VS\Shop\Shop\obj\Debug\Shop.csproj.AssemblyReference.cache
+D:\VS\Shop\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
+D:\VS\Shop\Shop\bin\Debug\Shop.exe.config
+D:\VS\Shop\Shop\bin\Debug\Shop.exe
+D:\VS\Shop\Shop\bin\Debug\Shop.pdb
+D:\VS\Shop\Shop\obj\Debug\Shop.exe
+D:\VS\Shop\Shop\obj\Debug\Shop.pdb
+D:\VS\Shop\Shop\bin\Debug\xunit.abstractions.dll
+D:\VS\Shop\Shop\bin\Debug\xunit.assert.dll
+D:\VS\Shop\Shop\bin\Debug\xunit.core.dll
+D:\VS\Shop\Shop\bin\Debug\xunit.execution.desktop.dll
+D:\VS\Shop\Shop\bin\Debug\xunit.abstractions.xml
+D:\VS\Shop\Shop\bin\Debug\xunit.assert.xml
+D:\VS\Shop\Shop\bin\Debug\xunit.core.xml
+D:\VS\Shop\Shop\bin\Debug\xunit.execution.desktop.xml
+D:\VS\Shop\Shop\obj\Debug\Shop.csproj.Up2Date
